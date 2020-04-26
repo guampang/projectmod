@@ -1,4 +1,4 @@
 FROM php:7-fpm
 
-RUN apt-get update && apt-get install -y libzip-dev libpng-dev libicu-dev \
+RUN apt-get update && apt-get install -y libzip-dev libpng-dev libicu-dev libxml2 \
     && docker-php-ext-install mysqli zip gd intl xmlrpc soap
