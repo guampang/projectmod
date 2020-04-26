@@ -2,3 +2,4 @@ version: '3'
 services:
     webserver:
         image: nginx
+        ports: 80:80
