@@ -1,5 +1,13 @@
 version: '3'
 services:
+    db:
+        image: mariadb
+        restart: always
+        environment: 
+            MYSQL_ROOT_PASSWORD: imgroot
+            MYSQL_DATABASE: mod_db
+            MYSQL_USER: mod_user
+            MYSQL_PASSWORD: sukses123
     webserver:
         image: nginx
         ports: 
