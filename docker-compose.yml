@@ -7,9 +7,9 @@ services:
         volumes:
             - ./code:/code
             - ./site.conf:/etc/nginx/conf.d/site.conf
+            - ./moodledata:/moodledata
     php:
         build:
             ./
         volumes:
             - ./code:/code
-            - ./moodledata:/moodledata
