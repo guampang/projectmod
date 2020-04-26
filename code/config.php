@@ -109,7 +109,7 @@ $CFG->wwwroot   = 'http://blog.jagoanhosting.my.id';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = '/moodledata';
+$CFG->dataroot  = './moodledata';
 
 
 //=========================================================================
