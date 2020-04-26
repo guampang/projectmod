@@ -15,7 +15,7 @@ services:
         volumes:
             - ./code:/code
             - ./site.conf:/etc/nginx/conf.d/site.conf
-            - ./moodledata:/root/moodledata:rw
+            - ./moodledata:/code/moodledata:rw
     php:
         build:
             ./
